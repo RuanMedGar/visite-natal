@@ -47,3 +47,28 @@ main{
 footer{
   
 }
+
+#photo{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    width: 500px;
+    margin: 10px auto;
+    background: rgb(140, 250, 190);
+    border-bottom: 5px solid rgb(0, 150, 10);
+}
+
+.info{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+ */   
+}
