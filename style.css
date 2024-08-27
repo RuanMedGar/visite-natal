@@ -6,13 +6,13 @@ body{
 
 header{
     height: 400px;
-    width: 400px;
+    width: 500px;
     background-image: url(https://visit.natal.br/assets/img/galeria3.jpg);
     background-size: cover;
     color: white;
     display:flex;
     flex-direction: column;
-    justify-content center;
+    justify-content: space-around;
     align-content: center;
     justify-items: center;
     h1, h2{
@@ -29,6 +29,7 @@ header{
 }
 
 .atividades{
+  width: 500px;
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -65,7 +66,6 @@ footer{
 
 .info{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 /*
     width: 400px;
     margin: 0 auto;
