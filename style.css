@@ -62,12 +62,12 @@ main{
 }
 
 .card{
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content:space-around;
-    width: 500px;
-    margin: 10px auto;
-    background: #A0D5D9ff;
+    width: 450px;
+    margin: 50px auto;
+    background: #A8dadc;
     border-bottom: 5px solid #4C727Fff;
 }
 
