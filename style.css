@@ -6,47 +6,54 @@ body{
 
 header{
     height: 400px;
-    width: 500px;
+    width: auto;
     background-image: url(https://visit.natal.br/assets/img/galeria3.jpg);
     background-size: cover;
     color: white;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:center ;
     align-content: center;
     justify-items: center;
     h1, h2{
       padding:10px 20px;
       border-radius: 3px;
-      margin: 40px auto;
+      margin: 20px auto;
+      font-size:large;
     }
     h1{
       background-color: #3b6d8e;
     }
     h2{
-      background-color: #1d2e48;
+      background-color: #262c35;
     }
 }
 
 .atividades{
-  width: 500px;
   display: flex;
   text-align: center;
   justify-content: space-around;
+  align-content: center;
+  .atracao{
+    width: 200px;
+    /* p{
+      text-align: justify;
+    } */
+  }
+  h3, h4{
+    font-weight: bolder;
+  }
 }
 
 main{
     background-color: #F1F9ECff;
     padding: 20px;
+    color: #252d32;
     img{
       width: 100px;
       height: 100px;
       border-radius: 50px;
     }
-}
-
-footer{
-  
 }
 
 #photo{
@@ -60,11 +67,12 @@ footer{
     justify-content:space-around;
     width: 500px;
     margin: 10px auto;
-    background: rgb(140, 250, 190);
-    border-bottom: 5px solid rgb(0, 150, 10);
+    background: #A0D5D9ff;
+    border-bottom: 5px solid #4C727Fff;
 }
 
 .info{
+    color: #2E6168ff;
     text-align: center;
 /*
     width: 400px;
